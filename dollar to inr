@@ -1,0 +1,22 @@
+<html>
+<body>
+<label >enter the amount in dollars</label>
+<input type="text" id="t1"><br><br>
+<label > the amount in inr</label>
+<input type="text" id="t2"><br><br>
+<button id="b1">convert</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+$("#b1").click(function()
+{
+var amt=$("#t1").val(); var cnt=amt*82;
+$("#t2").val(cnt);
+
+});
+});
+</script>
+
+</body>
+</html>
